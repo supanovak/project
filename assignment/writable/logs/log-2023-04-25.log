@@ -1,0 +1,223 @@
+CRITICAL - 2023-04-25 07:58:34 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 07:59:40 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:01:17 --> Undefined variable $title
+in APPPATH/Controllers/Upload.php on line 18.
+ 1 APPPATH/Controllers/Upload.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:18:57 --> Call to a member function move() on string
+in APPPATH/Controllers/Upload.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:21:34 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:24:11 --> Undefined array key "upload"
+in APPPATH/Controllers/Upload.php on line 15.
+ 1 APPPATH/Controllers/Upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:24:27 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:25:45 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:28:21 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:28:51 --> Undefined array key "upload"
+in APPPATH/Controllers/Upload.php on line 15.
+ 1 APPPATH/Controllers/Upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:29:06 --> Call to a member function move() on null
+in APPPATH/Controllers/Upload.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:29:18 --> array_filter(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Upload.php on line 14.
+ 1 APPPATH/Controllers/Upload.php(14): array_filter()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:21:55 --> Undefined variable $builder
+in APPPATH/Models/Home_model.php on line 15.
+ 1 APPPATH/Models/Home_model.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(10): App\Models\Upload->getPopular()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 13:31:24 --> mysqli_sql_exception: Not unique table/alias: 'posts' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Home_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Home.php(10): App\Models\Upload->getPopular()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 13:31:24 --> Not unique table/alias: 'posts'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Home_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(10): App\Models\Upload->getPopular()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-25 13:31:24 --> mysqli_sql_exception: Not unique table/alias: 'posts' in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Home_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/assignment/app/Controllers/Home.php(10): App\Models\Upload->getPopular()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-25 13:31:24 --> Not unique table/alias: 'posts'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Home_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(10): App\Models\Upload->getPopular()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:32:52 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:34:39 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:37:08 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:38:01 --> extract(): Argument #1 ($array) must be of type array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): extract()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:39:37 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:40:00 --> Undefined variable $decoded
+in APPPATH/Controllers/Home.php on line 15.
+ 1 APPPATH/Controllers/Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:44:16 --> Undefined variable $title
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 13:47:55 --> Undefined variable $pid
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:07:24 --> Too few arguments to function App\Models\Hub::showPosts(), 0 passed in /var/www/htdocs/assignment/app/Controllers/Hub.php on line 8 and exactly 3 expected
+in APPPATH/Models/Hub_model.php on line 10.
+ 1 APPPATH/Controllers/Hub.php(8): App\Models\Hub->showPosts()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 14:16:51 --> Undefined variable $post
+in APPPATH/Controllers/Hub.php on line 12.
+ 1 APPPATH/Controllers/Hub.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:37:33 --> Undefined variable $popular
+in APPPATH/Views/home.php on line 4.
+ 1 APPPATH/Views/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(50): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:43:25 --> Undefined variable $title
+in APPPATH/Controllers/Hub.php on line 7.
+ 1 APPPATH/Controllers/Hub.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:45:20 --> Undefined variable $title
+in APPPATH/Controllers/Hub.php on line 7.
+ 1 APPPATH/Controllers/Hub.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

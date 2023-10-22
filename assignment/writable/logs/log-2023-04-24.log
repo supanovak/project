@@ -1,0 +1,36 @@
+ERROR - 2023-04-24 02:29:48 --> mysqli_sql_exception: Table 'assignment.Uploads' doesn't exist in /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/assignment/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/assignment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/assignment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/assignment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/assignment/app/Models/Upload_model.php(16): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/assignment/app/Controllers/Upload.php(19): App\Models\Upload->upload()
+#6 /var/www/htdocs/assignment/system/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+#7 /var/www/htdocs/assignment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/assignment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/assignment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-24 02:29:48 --> Table 'assignment.Uploads' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Upload_model.php(16): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Upload.php(19): App\Models\Upload->upload()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_file()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 03:00:20 --> Call to undefined method CodeIgniter\Router\RouteCollection::psot()
+in APPPATH/Config/Routes.php on line 40.
+ 1 SYSTEMPATH/Router/RouteCollection.php(267): require()
+ 2 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 03:34:48 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Profile.php on line 8.
+ 1 APPPATH/Controllers/Profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,248 @@
+CRITICAL - 2023-05-19 03:25:20 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in /var/www/htdocs/assignment/app/Config/Routes.php on line 42 and at least 2 expected
+in SYSTEMPATH/Router/RouteCollection.php on line 927.
+ 1 APPPATH/Config/Routes.php(42): CodeIgniter\Router\RouteCollection->post()
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:27:27 --> Undefined variable $email
+in APPPATH/Controllers/Secret_questions.php on line 27.
+ 1 APPPATH/Controllers/Secret_questions.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:41:32 --> Undefined variable $email
+in APPPATH/Controllers/Secret_questions.php on line 18.
+ 1 APPPATH/Controllers/Secret_questions.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:42:37 --> Undefined variable $email
+in APPPATH/Controllers/Secret_questions.php on line 18.
+ 1 APPPATH/Controllers/Secret_questions.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:42:59 --> Undefined variable $id
+in APPPATH/Controllers/Secret_questions.php on line 29.
+ 1 APPPATH/Controllers/Secret_questions.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:45:41 --> Undefined variable $id
+in APPPATH/Controllers/Secret_questions.php on line 21.
+ 1 APPPATH/Controllers/Secret_questions.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:47:27 --> Undefined variable $id
+in APPPATH/Controllers/Secret_questions.php on line 22.
+ 1 APPPATH/Controllers/Secret_questions.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:50:39 --> Call to a member function get() on bool
+in APPPATH/Models/User_model.php on line 40.
+ 1 APPPATH/Controllers/Register.php(48): App\Models\User_model->register()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:51:38 --> Call to a member function get() on bool
+in APPPATH/Models/User_model.php on line 40.
+ 1 APPPATH/Controllers/Register.php(48): App\Models\User_model->register()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:55:58 --> Undefined variable $if_remember
+in APPPATH/Controllers/Register.php on line 55.
+ 1 APPPATH/Controllers/Register.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 03:57:58 --> Undefined property: App\Controllers\Register::$reqeust
+in APPPATH/Controllers/Register.php on line 20.
+ 1 APPPATH/Controllers/Register.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:00:14 --> Undefined variable $email
+in APPPATH/Controllers/Secret_questions.php on line 19.
+ 1 APPPATH/Controllers/Secret_questions.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Secret_questions->submit_questions()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:12:35 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH/Controllers/Login.php on line 33.
+ 1 APPPATH/Controllers/Login.php(33): password_hash()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:18:01 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Login.php on line 35.
+ 1 APPPATH/Controllers/Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:18:33 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Login.php on line 35.
+ 1 APPPATH/Controllers/Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:19:11 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Login.php on line 35.
+ 1 APPPATH/Controllers/Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:19:26 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Login.php on line 35.
+ 1 APPPATH/Controllers/Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:42:52 --> require_once(recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:43:46 --> require_once(recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:45:43 --> require_once(recaptcha-php-1.11/recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:46:06 --> require_once(recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:46:29 --> require_once(recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:46:29 --> require_once(recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 04:57:54 --> require_once(recaptchalib.php): Failed to open stream: No such file or directory
+in APPPATH/Views/login.php on line 24.
+ 1 APPPATH/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/login.php(24): require_once()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Login.php(23): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 05:45:53 --> Undefined variable $author
+in APPPATH/Views/hub.php on line 28.
+ 1 APPPATH/Views/hub.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hub.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Hub.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 05:46:26 --> Undefined variable $author
+in APPPATH/Views/hub.php on line 28.
+ 1 APPPATH/Views/hub.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hub.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Hub.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 05:46:27 --> Undefined variable $author
+in APPPATH/Views/hub.php on line 28.
+ 1 APPPATH/Views/hub.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hub.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Hub.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 05:46:27 --> Undefined variable $author
+in APPPATH/Views/hub.php on line 28.
+ 1 APPPATH/Views/hub.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hub.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Hub.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Hub->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
